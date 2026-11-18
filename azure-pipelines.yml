@@ -16,3 +16,7 @@ steps:
 - script: 
     echo Welcome to azure class
   displayName: 'stage-3'
+
+- script:
+    echo last stage
+  displayName: 'stage-4'
