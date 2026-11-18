@@ -1,22 +1,12 @@
 trigger:
-- main
+ - main
 
 pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
+- script: echo hema
   displayName: 'stage-1'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
+- script: echo azure
   displayName: 'stage-2'
-
-- script: 
-    echo Welcome to azure class
-  displayName: 'stage-3'
-
-- script:
-    echo last stage
-  displayName: 'stage-4'
